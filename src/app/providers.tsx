@@ -46,15 +46,10 @@ function AuthProviders({
     const loadAuthComponents = async () => {
       try {
         // Dynamic imports for auth modules
-        let SessionProvider = null;
+        const SessionProvider = null;
         let AuthKitProvider = null;
 
-        try {
-          const nextAuth = await import('next-auth/react');
-          SessionProvider = nextAuth.SessionProvider;
-        } catch (error) {
-          console.warn('NextAuth not available:', error);
-        }
+        
 
         try {
           const authKit = await import('@farcaster/auth-kit');

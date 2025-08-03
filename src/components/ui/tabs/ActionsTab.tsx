@@ -1,6 +1,5 @@
 'use client';
 
-import dynamic from 'next/dynamic';
 import { useCallback, useState } from 'react';
 import { useMiniApp } from '@neynar/react';
 import { ShareButton } from '../Share';
