@@ -93,7 +93,7 @@ const scrollToSection = (key: string) => {
   // 복사 기능
   const copyToClipboard = (emoticon: string) => {
   navigator.clipboard.writeText(emoticon);
-  alert('복사되었습니다!');
+  alert('copied to clipboard!');
 
   // 최근 사용 이모티콘 불러오기
   let recentList: string[] = [];
