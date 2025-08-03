@@ -1,0 +1,10 @@
+{
+  "name": "memoticon",
+  "description": "Farcaster를 위한 특수문자·이모티콘 미니앱",
+  "iconUrl": "/icons/app-icon.png",
+  "entry": "https://your-app-domain.com",
+  "categories": ["fun", "utility"],
+  "color": "#FFB6C1",
+  "author": "YourName or Team",
+  "version": "1.0.0"
+}
